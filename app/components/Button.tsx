@@ -6,7 +6,12 @@ interface ButtonProps {
   children: React.ReactNode
 }
 
-const Button: React.FC<ButtonProps> = ({ className, onClick, children }) => {
+const Button: React.FC<ButtonProps> = ({
+  className,
+  onClick,
+  children,
+  ...props
+}) => {
   const defaultClassName =
     "bg-black text-white py-2 px-9 rounded-full text-sm font-bold leading-7 cursor-pointer hover:bg-galactic-blue"
   const combinedClassName = className
@@ -14,7 +19,7 @@ const Button: React.FC<ButtonProps> = ({ className, onClick, children }) => {
     : defaultClassName
 
   return (
-    <button className={combinedClassName} onClick={onClick}>
+    <button className={combinedClassName} onClick={onClick} {...props}>
       {children}
     </button>
   )
