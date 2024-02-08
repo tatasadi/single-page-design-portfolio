@@ -1,8 +1,8 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Plus_Jakarta_Sans } from "next/font/google"
 import "./globals.css"
 
-const inter = Inter({ subsets: ["latin"] })
+const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Single Page Design Portfolio",
@@ -25,7 +25,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className} bg-light-cream flex min-h-screen flex-col items-center justify-center`}
+        className={`${plusJakartaSans.className} bg-light-cream flex min-h-screen flex-col items-center justify-center`}
       >
         {children}
       </body>
