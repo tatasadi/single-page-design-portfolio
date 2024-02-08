@@ -27,8 +27,17 @@ Users should be able to:
 
 ### Screenshots
 
+Desktop:
+
 ![](./screenshot1.png)
+
+Tablet:
+
 ![](./screenshot2.png)
+
+Mobile:
+
+![](./screenshot3.png)
 
 ### Links
 
@@ -48,7 +57,7 @@ Users should be able to:
 
 ### Implementation time
 
-This challenge was completed over a span of x hours.
+This challenge was completed over a span of 3.5 hours.
 
 ## Author
 

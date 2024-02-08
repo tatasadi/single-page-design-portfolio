@@ -24,7 +24,7 @@
   }
 
   .slider-button {
-    @apply rounded-full bg-black p-5;
+    @apply hover:bg-galactic-blue rounded-full bg-black p-5;
   }
 
   .footer-link {

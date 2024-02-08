@@ -98,6 +98,27 @@ export default function Home() {
         </article>
       </div>
       <ImageSlider title="My Work" />
+      <div className="w-full p-4 sm:px-10 lg:px-[10.25rem]">
+        <div className="text-light-cream mb-[3.75rem] flex w-full flex-col items-center gap-[1.62rem] rounded-[0.625rem] bg-black px-6 py-12 text-center sm:px-[4.69rem] sm:pb-16 sm:pt-14 lg:flex-row lg:justify-between lg:pb-20 lg:pl-[4.06rem] lg:pr-[5.94rem] lg:pt-[5.06rem] lg:text-left">
+          <div>
+            <h2 className="mb-6 text-[1.625rem] font-bold leading-normal sm:mb-[1.62rem] sm:text-[2rem] lg:mb-[1.56rem] lg:text-[2.5rem]">
+              Book a call with me
+            </h2>
+            <p className="text-medium leading-[1.625rem] sm:text-lg sm:leading-7 lg:max-w-[33.75rem]">
+              I’d love to have a chat to see how I can help you. The best first
+              step is for us to discuss your project during a free consultation.
+              Then we can move forward from there.
+            </p>
+          </div>
+          <Button className="bg-light-red hover:bg-summer-yellow">
+            Free Consultation
+          </Button>
+        </div>
+        <div className="mb-8 flex w-full justify-between">
+          <Image src={logo} alt="logo" />
+          <Button className="">Free Consultation</Button>
+        </div>
+      </div>
       <Reference />
     </main>
   )
